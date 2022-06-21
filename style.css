@@ -1,0 +1,33 @@
+.banner {
+    background: url("foto2.jpeg") 
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: black;
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 25%;
+    width: 25%;
+    margin: auto;
+    height: 25%;
+    color: crimson;
+}
+
+.crop-img {
+    object-fit: cover;
+}
+
+.tim img {
+    width: 10px;
+    border:10px solid #fff:
+}
+
+.wafixed {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+}
