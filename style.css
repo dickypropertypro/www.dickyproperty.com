@@ -7,6 +7,15 @@
     color: black;
 }
 
+section h2 {
+    padding:20px ;
+    margin-bottom: 20px;
+}
+.Projact p {
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
 .lingkaran {
     display: inline-block;
     border-radius: 25%;
@@ -30,4 +39,12 @@
     right: 30px;
     bottom: 30px;
     z-index: 999;
+}
+@media screen and (max-width:768px){
+    .container {
+        width:90%;
+    }
+    header h1 {
+        
+    }
 }
